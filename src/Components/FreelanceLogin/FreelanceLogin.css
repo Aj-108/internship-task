@@ -1,0 +1,97 @@
+.loginFreelance {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imageArea {
+    background-image: url(../assests/Rectangle\ 127.png);
+    background-repeat: none;
+    min-height: 400px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.freelanceImage{
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-top: 15px;
+    background-image: url(../assests/Rectangle\ 127.png);
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-repeat: none;
+    border-radius: 15px;
+}
+
+.freelance__textArea{
+    display: flex;
+    flex-direction: column;
+}
+
+.freelance__topText {
+    color: rgb(83,162,137);
+    font-weight: 500;
+    font-size : 16px
+}
+
+.freelance__heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.freelance__bottomTextArea {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.freelance__bottomText {
+    color: rgb(95,185,156);
+    font-size: 20px;
+    align-self: center;
+    font-weight: 600;
+    margin-left: 0px !important;
+}
+
+.freelance__button {
+    border: 1px solid black;
+    outline: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2%;
+    border-radius: 10px;
+    margin-right: 0px !important;
+}
+
+.freelance__button:hover{
+    color: white;
+    background-color: black;
+}
+
+.freelance__col{
+    margin-right: 0px !important;
+}
+
+@media screen and (max-width : 991px) {
+    .freelanceImage{
+        max-height: 280px;
+        padding-bottom: 0px !important;
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    .freelance__topText{
+        margin-top: 50px;
+    }
+    .freelance__heading{
+        font-size: 28px;
+    }
+    .freelance__bottomText{
+        font-size: 17px;
+    }
+}
+

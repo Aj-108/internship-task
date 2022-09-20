@@ -1,0 +1,156 @@
+.card{
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 210px;
+    max-width: 220px;
+}
+
+.card__body{
+    border-bottom: 1px solid lightgrey;
+}
+
+.card__top{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+.topImg{
+    background-size : cover ;
+    background-position: center;
+    position : relative ;
+}
+
+
+
+.card__avatar{
+    max-height: 45px;
+    margin-right: 12px;
+}
+
+.card__nameArea{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title{
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.card__caption{
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card__rating{
+    padding-left: 12px;
+    padding-right: 10px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__lower{
+    margin-top: 7px;
+    padding-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.card__text{
+    padding-left: 12px;
+    color:gray ;
+    font-size: 13px;
+    margin-bottom:7px;
+} 
+
+.card__lowerPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rupeeIcon{
+    margin-left: -5px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.price__caption{
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card__priceArea{
+    display: flex;
+    align-items: center;
+}
+
+.cardPrice{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card__button{
+    font-size: 15px;
+    max-height: 35px;
+}
+
+
+.rating__star{
+    color: rgb(236,185,40);
+}
+
+
+.heartIcon{
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.yellow{
+    color: rgb(236,185,40);
+}
+
+@media screen and (max-width:991px) {
+    .rating__star{
+        font-size: 21px !important;
+    }
+} 
+
+@media screen and (max-width : 1401px){
+    .card{
+        min-width: 180px;
+    }
+    .card__title{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .card{
+        min-width: 170px;
+    }
+    .card__title{
+        font-size: 14px;
+    }
+}
+
+.noColor {
+    background-color: transparent !important;
+    border : 2px solid rgb(83,162,137) ;
+    padding: 2px;
+}
