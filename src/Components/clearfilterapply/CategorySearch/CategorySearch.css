@@ -1,0 +1,27 @@
+/* select option[disabled] {
+    display: none;
+}
+
+.categorySearch{
+    background-color: white;
+    max-width: 75%;
+    margin: auto;
+    margin-top: -80px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.category__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.category__container1{
+    display: flex;
+}
+
+.category__container2{
+    display: flex;
+    background-color: white;
+} */

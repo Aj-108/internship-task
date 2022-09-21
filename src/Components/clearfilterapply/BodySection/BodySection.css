@@ -1,0 +1,33 @@
+.bodySection{
+    background-color: rgb(231,253,251);
+    padding-top: 180px;
+}
+
+.body__numberTray{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.number{
+    color: #7B7B7B;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.number:hover{
+    background-color: #07A189;
+    color: white;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 10px;
+}
+
+.rightArrow {
+    margin-left: 20px;
+}

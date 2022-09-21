@@ -27,11 +27,11 @@ function MiddleSection() {
                 </div>
             </div>
             <div className="row middleSection__secondRow">
-                <div className="col-6 col-lg-2 middleSection__topCard mx-auto"> <Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img2} avatar={avatar1} isBackground={false}/> </div>
-                <div className="col-lg-2 mx-auto middleSection__hideCard"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img2} avatar={avatar3} isBackground={false}/></div>
-                <div className="col-lg-2 middleSection__hideCard mx-auto"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img1} avatar={avatar2} isBackground={false}/></div>
-                <div className="col-lg-2 middleSection__hideCard mx-auto"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img2} avatar={avatar3} isBackground={false}/></div>
-                <div className="col-6 col-lg-2 middleSection__bottomCard mx-auto"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img1} avatar={avatar1} isBackground={false}/></div>
+                <div className="col-6 col-lg-2 middleSection__topCard mx-auto"> <Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img2} avatar={avatar1} isBackground={false} isPrice={true}/> </div>
+                <div className="col-lg-2 mx-auto middleSection__hideCard"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img2} avatar={avatar3} isBackground={false} isPrice={true}/></div>
+                <div className="col-lg-2 middleSection__hideCard mx-auto"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img1} avatar={avatar2} isBackground={false} isPrice={true}/></div>
+                <div className="col-lg-2 middleSection__hideCard mx-auto"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img2} avatar={avatar3} isBackground={false} isPrice={true}/></div>
+                <div className="col-6 col-lg-2 middleSection__bottomCard mx-auto"><Card name='Eleanor Pena' ratingNumber={4.7} price={2100} topImg={img1} avatar={avatar1} isBackground={false} isPrice={true}/></div>
             </div>
         </div>
     </div>

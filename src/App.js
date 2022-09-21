@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Task2 from "./Components/homescreen/Task2";
 import Login from "./Components/loginHomeScreen/Login"; 
+import ClearFilterApply from "./Components/clearfilterapply/ClearFilterApply";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Task2/>}/>
             <Route path="/loginHome" element={<Login />} />
+            <Route path="/clearfilterapply" element={<ClearFilterApply />} />
           </Routes>
         </BrowserRouter>
     </div>

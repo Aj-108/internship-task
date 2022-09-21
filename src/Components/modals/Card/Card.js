@@ -5,13 +5,15 @@ import StarHalfIcon from '@mui/icons-material/StarHalf';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
-function Card({name,ratingNumber,price,topImg,avatar,isBackground}) {
+function Card({name,ratingNumber,price,topImg,avatar,isBackground,isPrice}) {
 
   const[temp,setTemp] = useState(ratingNumber) ;
   const[isClick,setIsClick] = useState(false) ;
   const [ratingArray,setRatingArray] = useState([]) ;
-
+ 
 
   const clickHandler = () => {
     setIsClick(!isClick) ;
@@ -61,7 +63,11 @@ function Card({name,ratingNumber,price,topImg,avatar,isBackground}) {
                         <div className="card__priceArea"> <CurrencyRupeeIcon className='rupeeIcon'/> <span className="cardPrice">{price}</span></div>
                         <div className="price__caption"> Starting Price</div>
                       </div>
-                      <a className="btn btn-dark card__button">Select</a>
+                      {isPrice ? 
+                      <a className="btn btn-dark card__button">Select</a> 
+                      :
+                      <a className="btn btn-dark transparent card__button"> <QuestionAnswerIcon/> Chat</a>
+                      }
                     </div>
                 </div>
     // </div>

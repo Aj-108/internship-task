@@ -30,10 +30,10 @@ function LowerSection() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-6 col-lg-2 mx-auto lowerSection__card lowerSection__topCard"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar1} isBackground={true}/></div>
-                <div className="col-6 col-lg-2 mx-auto lowerSection__card lowerSection__midCard"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar3} isBackground={true}/></div>
-                <div className="col-lg-2 mx-auto lowerSection__hideCard lowerSection__card"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar2} isBackground={true}/></div>
-                <div className="col-lg-2 mx-auto lowerSection__hideCard lowerSection__card lowerSection__lowCard"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar3} isBackground={true}/></div>
+                <div className="col-6 col-lg-2 mx-auto lowerSection__card lowerSection__topCard"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar1} isBackground={true} isPrice={true}/></div>
+                <div className="col-6 col-lg-2 mx-auto lowerSection__card lowerSection__midCard"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar3} isBackground={true} isPrice={true}/></div>
+                <div className="col-lg-2 mx-auto lowerSection__hideCard lowerSection__card"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar2} isBackground={true} isPrice={true}/></div>
+                <div className="col-lg-2 mx-auto lowerSection__hideCard lowerSection__card lowerSection__lowCard"><Card name='Eleanor Pena' ratingNumber={4.1} price={1200} topImg={img1} avatar={avatar3} isBackground={true} isPrice={true}/></div>
             </div>
         </div>
     </div>

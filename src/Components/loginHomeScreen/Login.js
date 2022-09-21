@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './Footer/Footer'
+import Footer from '../modals/Footer/Footer'
 import FreelanceLogin from './FreelanceLogin/FreelanceLogin'
 import LowerSection from './LowerSection/LowerSection'
 import MiddleSection from './MiddleSection/MiddleSection'
