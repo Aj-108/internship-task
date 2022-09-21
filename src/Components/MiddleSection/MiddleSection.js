@@ -11,7 +11,7 @@ import avatar3 from '../assests/Rectangle139.png' ;
 function MiddleSection() {
   return (
     <div className='middleSection'>
-        <div className="container-lg">
+        <div className="container-lg allContainers">
             <div className="row middleSection__topRow">
                 <div className="col-12"> <span className='middleSection__topLine'> Velit officia consequat </span> </div>
             </div>
@@ -19,7 +19,7 @@ function MiddleSection() {
                 <div className="col-12">
                     <div className="middleSection__headingArea">
                         <span className='middleSection__heading'>Lorem ipsum dolor sit amet</span>
-                        <div className="middleSection__sideArea">
+                        <div className="middleSection__sideArea"> 
                             <span className='middleSection__sideText'>See More</span>
                             <TrendingFlatIcon className='middleSection__rightArrow'/>
                         </div>

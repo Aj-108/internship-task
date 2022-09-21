@@ -7,7 +7,7 @@ import img2 from '../assests/pic2.png' ;
 import avatar1 from '../assests/avatarPic.png' ;
 import avatar2 from '../assests/Rectangle138.png' ;
 import avatar3 from '../assests/Rectangle139.png' ;
-
+ 
 function TopSection() {
   return (
     <div className='topSection'>

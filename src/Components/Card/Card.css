@@ -1,8 +1,8 @@
 .card{
     border: 1px solid white;
     border-radius: 10px;
-    min-width: 210px;
-    max-width: 220px;
+    min-width: 215px;
+    max-width: 250px; 
 }
 
 .card__body{
