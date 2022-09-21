@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBriefcaseFill } from "react-icons/bs";
-import ellips1 from "../assests/Ellipse 5.png";
-import ellips2 from "../assests/Ellipse 6.png";
+import ellips1 from "../../assests/Ellipse 5.png";
+import ellips2 from "../../assests/Ellipse 6.png";
 import Slider from "react-slick";
 import "./Freelancer.css";
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import AvatarImage from "../assests/avatarPic.png";
+import AvatarImage from "../../assests/avatarPic.png";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import SearchBar from "../SearchBar/SearchBar";
 

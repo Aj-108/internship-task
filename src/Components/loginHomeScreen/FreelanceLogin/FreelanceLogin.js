@@ -1,7 +1,7 @@
 import React from 'react'
 import './FreelanceLogin.css' ;
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
-import img1 from '../assests/Group220.png'
+import img1 from '../../assests/Group220.png'
 
 function FreelanceLogin() {
   return (
@@ -27,4 +27,4 @@ function FreelanceLogin() {
   )
 }
 
-export default FreelanceLogin
+export default FreelanceLogin 

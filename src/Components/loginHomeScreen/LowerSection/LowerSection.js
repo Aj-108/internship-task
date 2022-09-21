@@ -1,12 +1,11 @@
 import React from 'react'
 import './LowerSection.css';
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
-import Card from '../Card/Card';
-import img1 from '../assests/mob1.png' ;
-import img2 from '../assests/mob2.png' ;
-import avatar1 from '../assests/avatarPic.png' ;
-import avatar2 from '../assests/Rectangle138.png' ;
-import avatar3 from '../assests/Rectangle139.png' ;
+import Card from '../../modals/Card/Card';
+import img1 from '../../assests/mob1.png' ;
+import avatar1 from '../../assests/avatarPic.png' ;
+import avatar2 from '../../assests/Rectangle138.png' ;
+import avatar3 from '../../assests/Rectangle139.png' ;
 
 
 function LowerSection() {

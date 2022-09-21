@@ -4,8 +4,8 @@ import bootstrap from "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Task2 from "./Components/Task2";
-import Login from "./Components/Login";
+import Task2 from "./Components/homescreen/Task2";
+import Login from "./Components/loginHomeScreen/Login"; 
 
 function App() {
   return (

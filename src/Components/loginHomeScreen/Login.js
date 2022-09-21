@@ -3,9 +3,9 @@ import Footer from './Footer/Footer'
 import FreelanceLogin from './FreelanceLogin/FreelanceLogin'
 import LowerSection from './LowerSection/LowerSection'
 import MiddleSection from './MiddleSection/MiddleSection'
-import Navbar from './Navbar/Navbar'
+import Navbar from '../modals/Navbar/Navbar'
 import TopSection from './TopSection/TopSection'
-import Tray from './Tray/Tray'
+import Tray from '../modals/Tray/Tray'
 
 function Login() {
   return (
